@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "record_id": "r1",
+      "date": "2026-11-03",
+      "meal_type": "lunch",
+      "name": "鸡胸肉",
+      "amount": 150,
+      "unit": "g",
+      "uniquekey": "u1",
+      "ntr": {"cal": 165, "protein": 31, "fat": 3.6, "carb": 0}
+    },
+    {
+      "record_id": "r2",
+      "date": "2026-11-03",
+      "meal_type": "lunch",
+      "name": "米饭",
+      "amount": 200,
+      "unit": "g",
+      "uniquekey": "u2",
+      "ntr": {"cal": 116, "protein": 2.6, "fat": 0.3, "carb": 25.9}
+    },
+    {
+      "record_id": "r3",
+      "date": "2026-11-03",
+      "meal_type": "breakfast",
+      "name": "鸡蛋",
+      "amount": 2,
+      "unit": "个",
+      "uniquekey": "u3",
+      "units": [{"unit": "个", "count": "1", "gram": 50}],
+      "ntr": {"cal": 143, "protein": 12.6, "fat": 9.5, "carb": 0.7}
+    }
+  ]
+}

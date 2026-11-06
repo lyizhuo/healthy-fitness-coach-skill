@@ -9,3 +9,8 @@ coverage/
 .env.*
 !.env.example
 .DS_Store
+
+# Hermes AI coach local data
+ai-fitness-coach/data/
+*.sqlite
+*.sqlite-*

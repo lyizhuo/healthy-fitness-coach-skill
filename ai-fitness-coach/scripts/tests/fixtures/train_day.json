@@ -1,0 +1,43 @@
+{
+  "trains": [
+    {
+      "localid": 123456,
+      "datestr": "2026-11-03",
+      "title": "胸部训练",
+      "start": 1762180000000,
+      "end": 1762183600000,
+      "note": {"text": "状态不错"},
+      "movements": [
+        {
+          "index": 0,
+          "name": "杠铃卧推",
+          "type": "胸",
+          "restTime": 90,
+          "warnRestTime": 45,
+          "difficulty": "normal",
+          "sets": [
+            {"index": 0, "done": true, "weight": "60", "unit": "kg", "reps": "10", "setType": "热"},
+            {"index": 1, "done": true, "weight": "80", "unit": "kg", "reps": "8", "rpe": "8"},
+            {"index": 2, "done": false, "weight": "80", "unit": "kg", "reps": "8", "rpe": "9"}
+          ]
+        },
+        {
+          "index": 1,
+          "name": "哑铃飞鸟",
+          "type": "胸",
+          "sets": [
+            {"index": 0, "done": true, "weight": "20", "unit": "kg", "reps": "12"}
+          ]
+        },
+        {
+          "index": 2,
+          "name": "绳索下压",
+          "type": "三头",
+          "sets": [
+            {"index": 0, "done": true, "weight": "25", "unit": "kg", "reps": "15"}
+          ]
+        }
+      ]
+    }
+  ]
+}

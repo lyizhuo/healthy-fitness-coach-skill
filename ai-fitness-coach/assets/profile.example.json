@@ -1,0 +1,18 @@
+{
+  "weight_kg": null,
+  "height_cm": null,
+  "age": null,
+  "sex": null,
+  "goal": "hypertrophy",
+  "training_days_per_week": 5,
+  "training_time": "18:30",
+  "timezone": "Asia/Shanghai",
+  "training_venue": "gym",
+  "available_equipment": [
+    "barbell",
+    "dumbbell",
+    "machines"
+  ],
+  "injury_or_medical_constraints": "none",
+  "diet_context": "canteen / takeout"
+}

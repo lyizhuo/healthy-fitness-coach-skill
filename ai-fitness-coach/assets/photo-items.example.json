@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "meal_type": "lunch",
+  "items": [
+    {
+      "name": "鸡胸肉",
+      "amount": 120,
+      "unit": "g",
+      "uniquekey": "from-search-result",
+      "ntr": {"cal": 165, "protein": 31, "fat": 3.6, "carb": 0}
+    },
+    {
+      "name": "米饭",
+      "amount": 180,
+      "unit": "g",
+      "uniquekey": "from-search-result",
+      "ntr": {"cal": 116, "protein": 2.6, "fat": 0.3, "carb": 25.9}
+    }
+  ]
+}

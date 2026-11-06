@@ -1,0 +1,19 @@
+{
+  "trains": [
+    {
+      "datestr": "2026-11-04",
+      "title": "胸部训练",
+      "movements": [
+        {
+          "name": "杠铃卧推",
+          "restTime": 90,
+          "warnRestTime": 45,
+          "sets": [
+            {"done": true, "weight": "60", "unit": "kg", "reps": "10", "setType": "热"},
+            {"done": true, "weight": "80", "unit": "kg", "reps": "8", "rpe": "8"}
+          ]
+        }
+      ]
+    }
+  ]
+}

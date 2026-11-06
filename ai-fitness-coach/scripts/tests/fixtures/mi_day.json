@@ -1,0 +1,30 @@
+{
+  "sleep": {
+    "duration_minutes": 480,
+    "time_asleep_minutes": 450,
+    "time_awake_minutes": 30,
+    "sleep_score": 82,
+    "is_nap": false,
+    "end_at": "2026-11-04T07:10:00+08:00",
+    "stages": [
+      {"stage": "deep", "minutes": 90},
+      {"stage": "light", "minutes": 250},
+      {"stage": "rem", "minutes": 110}
+    ],
+    "avg_hrv_ms": 65,
+    "hrv_median_ms": 63,
+    "hrv_base_min_ms": 55,
+    "hrv_base_max_ms": 85
+  },
+  "hrv": {
+    "avg_hrv_ms": 65,
+    "hrv_median_ms": 63,
+    "hrv_base_min_ms": 55,
+    "hrv_base_max_ms": 85
+  },
+  "rhr": 58,
+  "stress": {"avg": 28, "max": 55, "min": 12, "samples": 20},
+  "spo2": {"avg": 98, "min": 96, "samples": 10},
+  "activity": {"steps": 8000, "active_kcal": 500, "active_minutes": 60},
+  "abnormal": []
+}

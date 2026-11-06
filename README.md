@@ -310,6 +310,25 @@ python -m scripts.package_skill `
 
 照片创作先使用`extract-style.py`和`compile-visual-brief.js`，最终PNG使用`render-visual-composition.py`；旧版报告卡仍可使用`render-share-card.py`。Python图像渲染依赖Pillow，所有个人图片和Manifest都应保存在`fitness-reports/`等本地输出目录，不要提交仓库。
 
+## Hermes AI Coach
+
+本仓库新增了 [`ai-fitness-coach/`](ai-fitness-coach/)：面向 [Hermes Agent](https://hermes-agent.nousresearch.com/) 的衍生 skill。它保留通用训练/营养/证据骨架，通过私人 `profile.json` 个性化，并直接接入：
+
+- 训记训练/饮食 Open API（HTTP，不依赖本机 connector）
+- `mi-health-mcp`（小米睡眠、HRV、静息心率、压力、SpO₂；实时读取，不落本地）
+- Hermes cron（晨间/训前/晚间/周报）
+- Photo-to-Macros（视觉估算 + 训记食物搜索 + 确认后写回）
+
+安装：
+
+```bash
+hermes skills inspect lyizhuo/healthy-fitness-coach-skill/ai-fitness-coach
+hermes skills install lyizhuo/healthy-fitness-coach-skill/ai-fitness-coach
+hermes skills update ai-fitness-coach   # 之后更新
+```
+
+完整配置见 [`ai-fitness-coach/references/setup.md`](ai-fitness-coach/references/setup.md)。
+
 ## 贡献与反馈
 
 欢迎提交Issue或PullRequest。为了方便定位问题，请尽量提供：
